@@ -1,0 +1,9 @@
+name: Hello World
+description: A silly example module
+type: module
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - drupal:node
+  - webform:webform (>=8.x-5.x)
+  - devel:devel_generate
